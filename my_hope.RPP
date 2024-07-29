@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1722243494
+<REAPER_PROJECT 0.1 "7.07/macOS-arm64" 1722244967
   <NOTES 0 2
   >
   RIPPLE 0
@@ -12,13 +12,13 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
-  GRID 3199 8 1 8 1 0 0 0
+  GRID 3455 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 192.28915662650601
-  ZOOM 158.6809585012841 29998 0
-  VZOOMEX 6 2280
+  CURSOR 262.16935184967076
+  ZOOM 3.02857673636575 0 0
+  VZOOMEX 6 2352
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -4310,7 +4310,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 277 0 0 0 0 0 0
@@ -4577,7 +4577,7 @@
       FADEIN 1.1 0.01 0.01760118999712 1 1 0 0
       FADEOUT 1.1 0.01 0.02533282962642 1 1 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {2E7BBE2D-0B3E-344B-9289-399F9F32308A}
       IID 164
       NAME "my_hope_60_sec_cut (1).wav"
@@ -4648,7 +4648,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 77 0 0 0 0 0 0
@@ -4696,6 +4696,75 @@
     >
   >
   <TRACK {B119DB53-1D72-8F49-8E57-83AA76B39B42}
+    NAME "DALL·E 2024-07-29 10.34.49 - Digital art showing a father and child with their arms around each other. The background is a stormy sky. (1) (2)"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B119DB53-1D72-8F49-8E57-83AA76B39B42}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 119.30469101283016
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 0.10333435993596 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E397A84D-550F-9749-9C98-DF6111FC8E40}
+      IID 6
+      NAME Specterr_1080p_my_hope_l0_1.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 0.21230898716984
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D77B8183-CF7B-F042-AB52-BC4C2A18C9F6}
+      <SOURCE VIDEO
+        FILE "Media/Specterr_1080p_my_hope_l0_1.mp4"
+      >
+    >
+    <ITEM
+      POSITION 119.20135665289421
+      SNAPOFFS 0
+      LENGTH 144.65491833418128
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.10333435993596 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58FB03F4-026B-F042-825F-6D1F5A1C1575}
+      IID 5
+      NAME "DALL·E 2024-07-29 10.34.49 - Digital art showing a father and child with their arms around each other. The background is a stormy sky. (1) (2).png"
+      VOLPAN 1 0 1 -1
+      SOFFS 0.20135665289421
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B47E620-ED48-E94E-9584-0213F957DE94}
+      <SOURCE VIDEO
+        FILE "Media/DALL·E 2024-07-29 10.34.49 - Digital art showing a father and child with their arms around each other. The background is a stormy sky. (1) (2).png"
+      >
+    >
+  >
+  <TRACK {2210ED90-0205-7D41-98BF-625D2BD80904}
     NAME ""
     PEAKCOL 16576
     BEAT -1
@@ -4715,9 +4784,14 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {B119DB53-1D72-8F49-8E57-83AA76B39B42}
+    TRACKID {2210ED90-0205-7D41-98BF-625D2BD80904}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
   >
 >
